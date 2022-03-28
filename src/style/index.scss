@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+}
+h1 {
+  margin: 0;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100wh;
+  background: bisque;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__item {
+    color: brown;
+  }
+}
+
+.flag {
+  height: 50px;
+  width: 75px;
+  border: 5px solid black;
+  border-radius: 10px;
+
+}
+
+.yellow{
+  background: whitesmoke;
+  width: 100%;
+  height: 33.3%
+}
+
+.blue{
+  background: royalblue;
+  height: 33.3%;
+  width: 100%;
+}
+.red{
+  background: crimson;
+  height: 33.3%;
+  width: 100%;
+}
+
+.with-border {
+  box-sizing: border-box;
+  border: 2px solid black;
+}
